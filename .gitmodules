@@ -1,0 +1,9 @@
+[submodule "linux-serial-test"]
+	path = linux-serial-test
+	url = https://github.com/cbrake/linux-serial-test.git
+[submodule "fb-test-app"]
+	path = fb-test-app
+	url = https://github.com/phoenix826/fb-test-app.git
+[submodule "prb-test"]
+	path = prb-test
+	url = https://github.com/Linutronix/prb-test.git
