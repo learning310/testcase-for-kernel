@@ -1,0 +1,14 @@
+diff --git a/drivers/tty/serial/8250/8250_pci.c b/drivers/tty/serial/8250/8250_pci.c
+index 1d842bb8d..b628f63e0 100644
+--- a/drivers/tty/serial/8250/8250_pci.c
++++ b/drivers/tty/serial/8250/8250_pci.c
+@@ -4154,6 +4154,9 @@ static const struct pci_device_id blacklist[] = {
+ 	{ PCI_VDEVICE(EXAR, PCI_ANY_ID), },
+ 	{ PCI_VDEVICE(COMMTECH, PCI_ANY_ID), },
+ 
++	/* qemu pci-serial device*/
++	{ PCI_DEVICE(0x1b36, 0x0002), },
++
+ 	/* End of the black list */
+ 	{ }
+ };
